@@ -1,4 +1,4 @@
-[#GCP Data Engineering Project: Streaming Data Pipeline with Pub/Sub and Apache Beam/Dataflow]
+# GCP Data Engineering Project: Streaming Data Pipeline with Pub/Sub and Apache Beam/Dataflow
 
 Google Cloud Pub/Sub is a fully managed messaging service designed to support real-time messaging between applications. It enables reliable, asynchronous communication by decoupling senders and receivers, making it ideal for building event-driven systems.
 
