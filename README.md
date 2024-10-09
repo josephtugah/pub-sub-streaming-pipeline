@@ -7,18 +7,4 @@ Dataflow is a Google Cloud service that provides unified stream and batch data p
 # <u>DataPipeline Challenge</u>
 We have a "conversations.json" file containing the "customer_courier_chat_messages" event data, which includes information about individual messages exchanged between customers and couriers through the in-app chat. A sample of the event data is provided.
 
-'''python
-{
-  "senderAppType": "Courier Android",
-  "courierId": 15814271,
-  "fromId": 15814271,
-  "toId": 52048502,
-  "chatStartedByMessage": true,
-  "orderId": 98014164,
-  "orderStage": "ON_ROUTE",
-  "customerId": 52048502,
-  "messageSentTime": "2024-02-01T10:00:32Z"
-}
-{
-...
-}
+```json { "senderAppType": "Courier Android", "courierId": 15814271, "fromId": 15814271, "toId": 52048502, "chatStartedByMessage": true, "orderId": 98014164, "orderStage": "ON_ROUTE", "customerId": 52048502, "messageSentTime": "2024-02-01T10:00:32Z" } ```
