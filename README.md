@@ -18,5 +18,21 @@ We have a "conversations.json" file containing the "customer_courier_chat_messag
   "orderStage": "ON_ROUTE",
   "customerId": 52048502,
   "messageSentTime": "2024-02-01T10:00:32Z"
+},
+{
+...
 }
 ```
+Additionally, you have access to the "orders" event, which contains the "orderId" and "cityCode" fields.
+```json
+{
+  "orderId":24497171,
+  "cityCode":"AMS"},
+{
+...
+}
+```
+
+
+
+
