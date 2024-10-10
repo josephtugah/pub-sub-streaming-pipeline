@@ -140,7 +140,10 @@ python streaming-beam-dataflow.py
 Running the provided scripts (python send-data-to-pubsub.py and python streaming-beam-dataflow.py) in each terminal will trigger a series of actions:
 
 &#8226; Publish Messages: Messages will be published to the Pub/Sub topic.
+
 &#8226; Read Data: The pipeline will read data from a Pub/Sub subscription using the ReadFromPubSub transform.
+
 &#8226; Extract Fields: Desired fields from the parsed messages will be extracted for the "conversations" and "orders" tables using the beam.Map transform and lambda functions.
+
 &#8226; Write to BigQuery: The processed "conversations" and "orders" data will be written to the respective BigQuery tables using the WriteToBigQuery transform.
 ```
