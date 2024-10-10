@@ -1,0 +1,94 @@
+{"orderId":74816237,"messageSentTime":"2024-02-01T10:00:29Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":35808291,"fromId":35808291,"toId":19929216,"orderStage":"ACCEPTED","customerId":19929216}
+{"orderId":74816237,"messageSentTime":"2024-02-01T10:01:29Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":19929216,"fromId":19929216,"toId":35808291,"orderStage":"AWAITING_PICKUP","courierId":35808291}
+{"orderId":74816237,"messageSentTime":"2024-02-01T10:01:51Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":35808291,"fromId":35808291,"toId":19929216,"orderStage":"ACCEPTED","customerId":19929216}
+{"orderId":74816237,"messageSentTime":"2024-02-01T10:02:10Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":19929216,"fromId":19929216,"toId":35808291,"orderStage":"IN_PROGRESS","courierId":35808291}
+{"orderId":74816237,"cityCode":"SYD"}
+{"orderId":40601666,"messageSentTime":"2024-02-01T10:01:16Z","chatStartedByMessage":true,"senderAppType":"Customer iOS","customerId":19020819,"fromId":19020819,"toId":62751966,"orderStage":"PENDING","courierId":62751966}
+{"orderId":40601666,"messageSentTime":"2024-02-01T10:02:10Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":62751966,"fromId":62751966,"toId":19020819,"orderStage":"PENDING","customerId":19020819}
+{"orderId":40601666,"cityCode":"MEX"}
+{"orderId":83712617,"messageSentTime":"2024-02-01T10:01:17Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":41269596,"fromId":41269596,"toId":70961048,"orderStage":"OUT_FOR_DELIVERY","customerId":70961048}
+{"orderId":83712617,"messageSentTime":"2024-02-01T10:01:34Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":70961048,"fromId":70961048,"toId":41269596,"orderStage":"ON_ROUTE","courierId":41269596}
+{"orderId":83712617,"messageSentTime":"2024-02-01T10:02:34Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":41269596,"fromId":41269596,"toId":70961048,"orderStage":"ARRIVED","customerId":70961048}
+{"orderId":83712617,"messageSentTime":"2024-02-01T10:03:02Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":70961048,"fromId":70961048,"toId":41269596,"orderStage":"PENDING","courierId":41269596}
+{"orderId":83712617,"messageSentTime":"2024-02-01T10:03:37Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":41269596,"fromId":41269596,"toId":70961048,"orderStage":"DELIVERED","customerId":70961048}
+{"orderId":83712617,"cityCode":"LON"}
+{"orderId":62089066,"messageSentTime":"2024-02-01T10:02:05Z","chatStartedByMessage":true,"senderAppType":"Customer iOS","customerId":85365964,"fromId":85365964,"toId":56310258,"orderStage":"FAILED","courierId":56310258}
+{"orderId":62089066,"messageSentTime":"2024-02-01T10:02:22Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":56310258,"fromId":56310258,"toId":85365964,"orderStage":"ARRIVED","customerId":85365964}
+{"orderId":62089066,"messageSentTime":"2024-02-01T10:02:54Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":85365964,"fromId":85365964,"toId":56310258,"orderStage":"DELAYED","courierId":56310258}
+{"orderId":62089066,"messageSentTime":"2024-02-01T10:03:50Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":56310258,"fromId":56310258,"toId":85365964,"orderStage":"PENDING","customerId":85365964}
+{"orderId":62089066,"cityCode":"BUE"}
+{"orderId":34546478,"messageSentTime":"2024-02-01T10:02:20Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":93386342,"fromId":93386342,"toId":77761634,"orderStage":"PENDING","customerId":77761634}
+{"orderId":34546478,"messageSentTime":"2024-02-01T10:02:21Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":77761634,"fromId":77761634,"toId":93386342,"orderStage":"AWAITING_PICKUP","courierId":93386342}
+{"orderId":34546478,"messageSentTime":"2024-02-01T10:02:32Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":93386342,"fromId":93386342,"toId":77761634,"orderStage":"AWAITING_PICKUP","customerId":77761634}
+{"orderId":34546478,"cityCode":"TOK"}
+{"orderId":81415672,"messageSentTime":"2024-02-01T10:03:16Z","chatStartedByMessage":true,"senderAppType":"Customer iOS","customerId":36641632,"fromId":36641632,"toId":64921372,"orderStage":"DELAYED","courierId":64921372}
+{"orderId":81415672,"messageSentTime":"2024-02-01T10:04:10Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":64921372,"fromId":64921372,"toId":36641632,"orderStage":"DELIVERED","customerId":36641632}
+{"orderId":81415672,"messageSentTime":"2024-02-01T10:04:36Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":36641632,"fromId":36641632,"toId":64921372,"orderStage":"RETURNED","courierId":64921372}
+{"orderId":81415672,"messageSentTime":"2024-02-01T10:04:37Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":64921372,"fromId":64921372,"toId":36641632,"orderStage":"OUT_FOR_DELIVERY","customerId":36641632}
+{"orderId":81415672,"cityCode":"MUM"}
+{"orderId":42325490,"messageSentTime":"2024-02-01T10:03:25Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":84869692,"fromId":84869692,"toId":55636135,"orderStage":"ARRIVED","customerId":55636135}
+{"orderId":42325490,"messageSentTime":"2024-02-01T10:03:47Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":55636135,"fromId":55636135,"toId":84869692,"orderStage":"CANCELLED","courierId":84869692}
+{"orderId":42325490,"cityCode":"TOR"}
+{"orderId":13097260,"messageSentTime":"2024-02-01T10:04:06Z","chatStartedByMessage":true,"senderAppType":"Customer iOS","customerId":45074917,"fromId":45074917,"toId":38838812,"orderStage":"ON_ROUTE","courierId":38838812}
+{"orderId":13097260,"messageSentTime":"2024-02-01T10:04:13Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":38838812,"fromId":38838812,"toId":45074917,"orderStage":"DELIVERED","customerId":45074917}
+{"orderId":13097260,"messageSentTime":"2024-02-01T10:04:50Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":45074917,"fromId":45074917,"toId":38838812,"orderStage":"CANCELLED","courierId":38838812}
+{"orderId":13097260,"messageSentTime":"2024-02-01T10:05:10Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":38838812,"fromId":38838812,"toId":45074917,"orderStage":"AWAITING_PICKUP","customerId":45074917}
+{"orderId":13097260,"messageSentTime":"2024-02-01T10:05:14Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":45074917,"fromId":45074917,"toId":38838812,"orderStage":"CANCELLED","courierId":38838812}
+{"orderId":13097260,"cityCode":"RIO"}
+{"orderId":31597904,"messageSentTime":"2024-02-01T10:04:29Z","chatStartedByMessage":true,"senderAppType":"Customer iOS","customerId":39508970,"fromId":39508970,"toId":74910234,"orderStage":"ACCEPTED","courierId":74910234}
+{"orderId":31597904,"messageSentTime":"2024-02-01T10:05:10Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":74910234,"fromId":74910234,"toId":39508970,"orderStage":"FAILED","customerId":39508970}
+{"orderId":31597904,"messageSentTime":"2024-02-01T10:05:58Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":39508970,"fromId":39508970,"toId":74910234,"orderStage":"ACCEPTED","courierId":74910234}
+{"orderId":31597904,"messageSentTime":"2024-02-01T10:06:39Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":74910234,"fromId":74910234,"toId":39508970,"orderStage":"ARRIVED","customerId":39508970}
+{"orderId":31597904,"cityCode":"BCN"}
+{"orderId":29883179,"messageSentTime":"2024-02-01T10:05:00Z","chatStartedByMessage":true,"senderAppType":"Customer iOS","customerId":54914404,"fromId":54914404,"toId":41050613,"orderStage":"ACCEPTED","courierId":41050613}
+{"orderId":29883179,"messageSentTime":"2024-02-01T10:05:51Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":41050613,"fromId":41050613,"toId":54914404,"orderStage":"OUT_FOR_DELIVERY","customerId":54914404}
+{"orderId":29883179,"messageSentTime":"2024-02-01T10:06:36Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":54914404,"fromId":54914404,"toId":41050613,"orderStage":"DELAYED","courierId":41050613}
+{"orderId":29883179,"cityCode":"IST"}
+{"orderId":18202516,"messageSentTime":"2024-02-01T10:05:19Z","chatStartedByMessage":true,"senderAppType":"Customer iOS","customerId":30906589,"fromId":30906589,"toId":92925452,"orderStage":"DELIVERED","courierId":92925452}
+{"orderId":18202516,"messageSentTime":"2024-02-01T10:05:27Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":92925452,"fromId":92925452,"toId":30906589,"orderStage":"COMPLETED","customerId":30906589}
+{"orderId":18202516,"cityCode":"SAN"}
+{"orderId":10680922,"messageSentTime":"2024-02-01T10:06:05Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":39563808,"fromId":39563808,"toId":88621256,"orderStage":"ACCEPTED","customerId":88621256}
+{"orderId":10680922,"messageSentTime":"2024-02-01T10:06:56Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":88621256,"fromId":88621256,"toId":39563808,"orderStage":"IN_TRANSIT","courierId":39563808}
+{"orderId":10680922,"messageSentTime":"2024-02-01T10:07:02Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":39563808,"fromId":39563808,"toId":88621256,"orderStage":"IN_PROGRESS","customerId":88621256}
+{"orderId":10680922,"messageSentTime":"2024-02-01T10:07:51Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":88621256,"fromId":88621256,"toId":39563808,"orderStage":"OUT_FOR_DELIVERY","courierId":39563808}
+{"orderId":10680922,"messageSentTime":"2024-02-01T10:08:22Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":39563808,"fromId":39563808,"toId":88621256,"orderStage":"ARRIVED","customerId":88621256}
+{"orderId":10680922,"cityCode":"BER"}
+{"orderId":14014841,"messageSentTime":"2024-02-01T10:06:47Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":40309005,"fromId":40309005,"toId":92781283,"orderStage":"IN_PROGRESS","customerId":92781283}
+{"orderId":14014841,"messageSentTime":"2024-02-01T10:07:30Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":92781283,"fromId":92781283,"toId":40309005,"orderStage":"DELAYED","courierId":40309005}
+{"orderId":14014841,"messageSentTime":"2024-02-01T10:07:31Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":40309005,"fromId":40309005,"toId":92781283,"orderStage":"COMPLETED","customerId":92781283}
+{"orderId":14014841,"messageSentTime":"2024-02-01T10:08:30Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":92781283,"fromId":92781283,"toId":40309005,"orderStage":"ARRIVED","courierId":40309005}
+{"orderId":14014841,"messageSentTime":"2024-02-01T10:09:22Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":40309005,"fromId":40309005,"toId":92781283,"orderStage":"RETURNED","customerId":92781283}
+{"orderId":14014841,"cityCode":"TOK"}
+{"orderId":56206572,"messageSentTime":"2024-02-01T10:07:41Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":22543900,"fromId":22543900,"toId":49116837,"orderStage":"OUT_FOR_DELIVERY","customerId":49116837}
+{"orderId":56206572,"messageSentTime":"2024-02-01T10:08:00Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":49116837,"fromId":49116837,"toId":22543900,"orderStage":"FAILED","courierId":22543900}
+{"orderId":56206572,"cityCode":"ROM"}
+{"orderId":85079056,"messageSentTime":"2024-02-01T10:07:42Z","chatStartedByMessage":true,"senderAppType":"Customer iOS","customerId":23139348,"fromId":23139348,"toId":33595486,"orderStage":"IN_TRANSIT","courierId":33595486}
+{"orderId":85079056,"messageSentTime":"2024-02-01T10:08:24Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":33595486,"fromId":33595486,"toId":23139348,"orderStage":"OUT_FOR_DELIVERY","customerId":23139348}
+{"orderId":85079056,"messageSentTime":"2024-02-01T10:09:02Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":23139348,"fromId":23139348,"toId":33595486,"orderStage":"OUT_FOR_DELIVERY","courierId":33595486}
+{"orderId":85079056,"messageSentTime":"2024-02-01T10:09:33Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":33595486,"fromId":33595486,"toId":23139348,"orderStage":"IN_TRANSIT","customerId":23139348}
+{"orderId":85079056,"messageSentTime":"2024-02-01T10:09:46Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":23139348,"fromId":23139348,"toId":33595486,"orderStage":"AWAITING_PICKUP","courierId":33595486}
+{"orderId":85079056,"cityCode":"BCN"}
+{"orderId":41568129,"messageSentTime":"2024-02-01T10:07:44Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":96042930,"fromId":96042930,"toId":12924158,"orderStage":"DELAYED","customerId":12924158}
+{"orderId":41568129,"messageSentTime":"2024-02-01T10:07:59Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":12924158,"fromId":12924158,"toId":96042930,"orderStage":"PENDING","courierId":96042930}
+{"orderId":41568129,"messageSentTime":"2024-02-01T10:08:10Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":96042930,"fromId":96042930,"toId":12924158,"orderStage":"OUT_FOR_DELIVERY","customerId":12924158}
+{"orderId":41568129,"messageSentTime":"2024-02-01T10:08:21Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":12924158,"fromId":12924158,"toId":96042930,"orderStage":"DELIVERED","courierId":96042930}
+{"orderId":41568129,"cityCode":"RIO"}
+{"orderId":73791317,"messageSentTime":"2024-02-01T10:08:29Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":59114735,"fromId":59114735,"toId":12333717,"orderStage":"PROCESSING","customerId":12333717}
+{"orderId":73791317,"messageSentTime":"2024-02-01T10:09:07Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":12333717,"fromId":12333717,"toId":59114735,"orderStage":"DELAYED","courierId":59114735}
+{"orderId":73791317,"messageSentTime":"2024-02-01T10:09:51Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":59114735,"fromId":59114735,"toId":12333717,"orderStage":"AWAITING_PICKUP","customerId":12333717}
+{"orderId":73791317,"cityCode":"BER"}
+{"orderId":99667066,"messageSentTime":"2024-02-01T10:08:57Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":41421131,"fromId":41421131,"toId":41770486,"orderStage":"ON_ROUTE","customerId":41770486}
+{"orderId":99667066,"messageSentTime":"2024-02-01T10:09:19Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":41770486,"fromId":41770486,"toId":41421131,"orderStage":"OUT_FOR_DELIVERY","courierId":41421131}
+{"orderId":99667066,"messageSentTime":"2024-02-01T10:10:13Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":41421131,"fromId":41421131,"toId":41770486,"orderStage":"PENDING","customerId":41770486}
+{"orderId":99667066,"messageSentTime":"2024-02-01T10:10:53Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":41770486,"fromId":41770486,"toId":41421131,"orderStage":"RETURNED","courierId":41421131}
+{"orderId":99667066,"cityCode":"RIO"}
+{"orderId":90906160,"messageSentTime":"2024-02-01T10:09:39Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":52138471,"fromId":52138471,"toId":44863965,"orderStage":"PENDING","customerId":44863965}
+{"orderId":90906160,"messageSentTime":"2024-02-01T10:10:15Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":44863965,"fromId":44863965,"toId":52138471,"orderStage":"PROCESSING","courierId":52138471}
+{"orderId":90906160,"messageSentTime":"2024-02-01T10:10:22Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":52138471,"fromId":52138471,"toId":44863965,"orderStage":"CANCELLED","customerId":44863965}
+{"orderId":90906160,"messageSentTime":"2024-02-01T10:10:33Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":44863965,"fromId":44863965,"toId":52138471,"orderStage":"ARRIVED","courierId":52138471}
+{"orderId":90906160,"cityCode":"SIN"}
+{"orderId":63727995,"messageSentTime":"2024-02-01T10:09:47Z","chatStartedByMessage":true,"senderAppType":"Courier Android","courierId":35145987,"fromId":35145987,"toId":39661488,"orderStage":"OUT_FOR_DELIVERY","customerId":39661488}
+{"orderId":63727995,"messageSentTime":"2024-02-01T10:09:55Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":39661488,"fromId":39661488,"toId":35145987,"orderStage":"DELAYED","courierId":35145987}
+{"orderId":63727995,"messageSentTime":"2024-02-01T10:10:18Z","chatStartedByMessage":false,"senderAppType":"Courier Android","courierId":35145987,"fromId":35145987,"toId":39661488,"orderStage":"AWAITING_PICKUP","customerId":39661488}
+{"orderId":63727995,"messageSentTime":"2024-02-01T10:10:20Z","chatStartedByMessage":false,"senderAppType":"Customer iOS","customerId":39661488,"fromId":39661488,"toId":35145987,"orderStage":"COMPLETED","courierId":35145987}
+{"orderId":63727995,"cityCode":"ROM"}
