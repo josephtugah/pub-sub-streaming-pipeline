@@ -96,8 +96,51 @@ Both methods entail starting a Dataflow batch job using the 'Cloud Storage Text 
 &#8226; For larger volumes of data, alternative methods are necessary to efficiently send data to Pub/Sub. In such instances, I suggest utilizing Python code, which is better suited for managing and processing significant amounts of data.
 To execute the code, run the command `python send-data-to-pubsub.py` in your terminal. Be sure to supply the required parameters: topic path, bucket name, and file name.
 
+# <u>Streaming Apache Beam/Dataflow pipeline</u>
 
+Apache Beam is a versatile framework that offers flexibility for both batch and streaming data processing, making it a widely applicable tool in various use cases.
 
+The [Direct Runner](https://beam.apache.org/documentation/runners/direct/) executes pipelines on your machine and is designed to validate that pipelines adhere to the Apache Beam model as closely as possible. Using the Direct Runner for testing and development helps ensure that pipelines are robust across different Beam runners. The Direct Runner is not designed for production pipelines, because it's optimized for correctness rather than performance.
 
+The [Google Cloud](https://beam.apache.org/documentation/runners/dataflow/) Dataflow Runner uses the Cloud Dataflow managed service. When you run your pipeline with the Cloud Dataflow service, the runner uploads your executable code and dependencies to a Google Cloud Storage bucket and creates a Cloud Dataflow job, which executes your pipeline on managed resources in Google Cloud Platform.
 
+Transforming your Apache Beam pipeline from DirectRunner to DataflowRunner for creating a Dataflow job is a straightforward process that requires just a few modifications. The job_name and other lines after it in the following code are optional. However, you may want to consider adjusting the number of workers to enhance the job's performance. For more information on Pipeline options, refer to this [documentation](https://cloud.google.com/dataflow/docs/reference/pipeline-options#python).
 
+If you want to specify a Service account, make sure it has these roles: BigQuery Admin, Dataflow Worker, Pub/Sub Admin, Storage Object Viewer.
+
+```
+<...>
+#Define your Dataflow pipeline options
+options = PipelineOptions(
+    runner='DirectRunner',     #for Dataflow job change to DataflowRunner
+    project='your-project-id',
+    region='you-region',     #for Dataflow job change to e.g. us-west1
+    temp_location='gs://your-bucket/temp',
+    staging_location='gs://your-bucket/staging',
+    streaming=True,    #Enable streaming mode
+    #Dataflow parameters that are optional
+    #job_name='streaming-conversations'   
+    #num_workers=5,    
+    #max_num_workers=10,    
+    #disk_size_gb=100,    
+    #autoscaling_algorithm='THROUGHPUT_BASED',    
+    #machine_type='n1-standard-4',    
+    #service_account_email='your-service-account@your-project.iam.gserviceaccount.com'  
+<...>
+```
+Autoscaling will be enabled for Dataflow Streaming Engine even without specifying optional parameters. Workers will scale between 1 and 100 unless maxNumWorkers is specified
+
+<img width="800" alt="DataflowJob" src="https://github.com/user-attachments/assets/9de081c1-9dde-4a23-9ce4-cbaa967e874a">
+
+To initiate the streaming process using Apache Beam and Dataflow, execute the following command in your second terminal:
+
+```bash
+python streaming-beam-dataflow.py
+```
+Running the provided scripts (python send-data-to-pubsub.py and python streaming-beam-dataflow.py) in each terminal will trigger a series of actions:
+
+&#8226; Publish Messages: Messages will be published to the Pub/Sub topic.
+&#8226; Read Data: The pipeline will read data from a Pub/Sub subscription using the ReadFromPubSub transform.
+&#8226; Extract Fields: Desired fields from the parsed messages will be extracted for the "conversations" and "orders" tables using the beam.Map transform and lambda functions.
+&#8226; Write to BigQuery: The processed "conversations" and "orders" data will be written to the respective BigQuery tables using the WriteToBigQuery transform.
+```
