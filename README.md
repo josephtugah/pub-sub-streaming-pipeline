@@ -59,8 +59,7 @@ The task is to build a data pipeline that aggregates individual messages into di
 
 In this project, I will present my solution and provide a comprehensive, step-by-step guide on how to achieve the task. The focus will be on constructing a streaming pipeline utilizing various Google Cloud Platform (GCP) services, including:
 
-![Sample Image]("C:\Users\JosephTeyeTugah\Desktop\Upskill\dataEngineering\Pubsub pipeline flow.png")
-
+![Pubsub pipeline flow](https://github.com/user-attachments/assets/bf8a8150-b0c8-4823-872b-6acd1e0e5f5c)
 
 
 
