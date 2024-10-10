@@ -76,3 +76,28 @@ To enhance your understanding of how Pub/Sub operates, take a look at the messag
 ![pub_sub_flow (1)](https://github.com/user-attachments/assets/4af2d96b-4145-49e6-a669-d99bee81e7fe)
 
 A publisher application sends a message to a Pub/Sub topic. The message is written to storage. Along with writing the message to storage, Pub/Sub delivers the message to all the attached subscriptions of the topic. In this example, it's a single subscription. The subscription sends the message to an attached subscriber application. The subscriber sends an acknowledgment to Pub/Sub that they have processed the message. After at least one subscriber for each subscription has acknowledged the message, Pub/Sub deletes the message from storage.
+
+There are options for creating the Pub/Sub topic and subscription including using the GCP console to manually set up the Topic and Subscription. In this project, I used Pub/Sub client libray in python to create my topic and subscription.
+Leverage the provided code in my repository by running the command python topic-subscription.py
+
+# <u>Pub/Sending Data to Pub/Sub</u>
+We have several options for transmitting data from the bucket to Pub/Sub not limited to:
+
+&#8226; Export the data directly from the bucket to Pub/Sub
+
+<img width="916" alt="Data to PubSub" src="https://github.com/user-attachments/assets/725e9b6c-bba8-4abb-91bc-c1b6e8e5d5c2">
+
+&#8226; Import the data directly from the topic to Pub/Sub
+
+<img width="565" alt="import to pubsub" src="https://github.com/user-attachments/assets/cad1e0a8-08bc-424b-9295-825a146022b5">
+
+Both methods entail starting a Dataflow batch job using the 'Cloud Storage Text File to Pub/Sub (Batch)' template. However, these options are primarily designed for smaller datasets.
+
+&#8226; For larger volumes of data, alternative methods are necessary to efficiently send data to Pub/Sub. In such instances, I suggest utilizing Python code, which is better suited for managing and processing significant amounts of data.
+To execute the code, run the command `python send-data-to-pubsub.py` in your terminal. Be sure to supply the required parameters: topic path, bucket name, and file name.
+
+
+
+
+
+
