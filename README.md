@@ -61,7 +61,15 @@ In this project, I will present my solution and provide a comprehensive, step-by
 
 ![Pubsub pipeline flow](https://github.com/user-attachments/assets/bf8a8150-b0c8-4823-872b-6acd1e0e5f5c)
 
+Google Cloud Storage (GCS) is utilized to store the "conversations.json" file, offering reliable and scalable object storage for your data.
 
+Google Cloud Pub/Sub is employed to publish the contents of the "conversations.json" file to a specified topic, enabling asynchronous communication and decoupling of message producers and consumers. This service ensures reliable and scalable message delivery.
+
+Google Cloud Dataflow, built on the Apache Beam framework, is used to construct and execute a streaming data processing pipeline. It facilitates the real-time transformation of conversations data. By leveraging Dataflow, we can effectively partition the data into two tables: "conversations" and "orders."
+
+Google BigQuery serves as the repository for the processed conversations data. It provides a scalable and efficient platform for querying and analyzing streaming data, enabling insightful data retrieval and analysis.
+
+Using Client Libraries in Python, we define and provision a GCS bucket, Pub/Sub topic, subscription, and BigQuery dataset with tables. This approach allows for the automation of resource creation, ensuring a consistent and reproducible infrastructure setup for efficient data storage, messaging, and analysis.
 
 
 
