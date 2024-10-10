@@ -1,4 +1,4 @@
-![pub_sub_flow (1)](https://github.com/user-attachments/assets/4af2d96b-4145-49e6-a669-d99bee81e7fe)# GCP Data Engineering Project: Streaming Data Pipeline with Pub/Sub and Apache Beam/Dataflow
+# GCP Data Engineering Project: Streaming Data Pipeline with Pub/Sub and Apache Beam/Dataflow
 
 Pub/Sub is a publish/subscribe (Pub/Sub) service, a messaging service where the senders of messages are decoupled from the receivers of messages. It is a fully managed messaging service designed to support real-time messaging between applications. It enables reliable, asynchronous communication by decoupling senders and receivers, making it ideal for building event-driven systems.
 
@@ -73,4 +73,4 @@ In this project, I will present my solution and provide a comprehensive, step-by
 # <u>Pub/Sub Topic and Subscription</u>
 To enhance your understanding of how Pub/Sub operates, take a look at the message lifecycle example, which demonstrates the process of message transmission within the system.
 
-<img width="498" alt="pubsub message system" src="https://github.com/user-attachments/assets/1d3d194c-1ccf-45ba-af05-055fee70a91a">
+![pub_sub_flow (1)](https://github.com/user-attachments/assets/4af2d96b-4145-49e6-a669-d99bee81e7fe)
