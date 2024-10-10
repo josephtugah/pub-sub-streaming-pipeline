@@ -74,3 +74,5 @@ In this project, I will present my solution and provide a comprehensive, step-by
 To enhance your understanding of how Pub/Sub operates, take a look at the message lifecycle example, which demonstrates the process of message transmission within the system.
 
 ![pub_sub_flow (1)](https://github.com/user-attachments/assets/4af2d96b-4145-49e6-a669-d99bee81e7fe)
+
+A publisher application sends a message to a Pub/Sub topic. The message is written to storage. Along with writing the message to storage, Pub/Sub delivers the message to all the attached subscriptions of the topic. In this example, it's a single subscription. The subscription sends the message to an attached subscriber application. The subscriber sends an acknowledgment to Pub/Sub that they have processed the message. After at least one subscriber for each subscription has acknowledged the message, Pub/Sub deletes the message from storage.
