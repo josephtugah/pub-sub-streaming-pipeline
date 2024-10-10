@@ -57,7 +57,9 @@ The task is to build a data pipeline that aggregates individual messages into di
 &#8226; last_message_time: Timestamp of the last message sent  
 &#8226; last_message_order_stage: The stage of the order when the last message was sent
 
+In this project, I will present my solution and provide a comprehensive, step-by-step guide on how to achieve the task. The focus will be on constructing a streaming pipeline utilizing various Google Cloud Platform (GCP) services, including:
 
+![Sample Image]("C:\Users\JosephTeyeTugah\Desktop\Upskill\dataEngineering\Pubsub pipeline flow.png")
 
 
 
