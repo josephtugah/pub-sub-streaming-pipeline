@@ -146,4 +146,5 @@ Running the provided scripts (python send-data-to-pubsub.py and python streaming
 &#8226; Extract Fields: Desired fields from the parsed messages will be extracted for the "conversations" and "orders" tables using the beam.Map transform and lambda functions.
 
 &#8226; Write to BigQuery: The processed "conversations" and "orders" data will be written to the respective BigQuery tables using the WriteToBigQuery transform.
-```
+
+
