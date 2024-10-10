@@ -44,6 +44,7 @@ We will simulate the streaming of conversations between Couriers and Customers u
 
 The task is to build a data pipeline that aggregates individual messages into distinct conversations, ensuring each conversation is unique per order. The data should be divided into two tables: "conversations" and "orders". This separation will streamline future analysis and data processing. The final table, "customer_courier_conversations," must include the following required fields:
 
-U+2022
+&#8226; First item
+
 
 
