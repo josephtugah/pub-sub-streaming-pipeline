@@ -139,12 +139,39 @@ python streaming-beam-dataflow.py
 ```
 Running the provided scripts (python send-data-to-pubsub.py and python streaming-beam-dataflow.py) in each terminal will trigger a series of actions:
 
-&#8226; Publish Messages: Messages will be published to the Pub/Sub topic.
+&#8226; **Publish Messages**: Messages will be published to the Pub/Sub topic.
 
-&#8226; Read Data: The pipeline will read data from a Pub/Sub subscription using the ReadFromPubSub transform.
+&#8226; **Read Data**: The pipeline will read data from a Pub/Sub subscription using the ReadFromPubSub transform.
 
-&#8226; Extract Fields: Desired fields from the parsed messages will be extracted for the "conversations" and "orders" tables using the beam.Map transform and lambda functions.
+&#8226; **Extract Fields**: Desired fields from the parsed messages will be extracted for the "conversations" and "orders" tables using the beam.Map transform and lambda functions.
 
-&#8226; Write to BigQuery: The processed "conversations" and "orders" data will be written to the respective BigQuery tables using the WriteToBigQuery transform.
+&#8226; **Write to BigQuery**: The processed "conversations" and "orders" data will be written to the respective BigQuery tables using the WriteToBigQuery transform.
+
+# <u>BigQuery Streaming Buffer</u>
+By default, BigQuery utilizes a designated storage area known as the "streaming buffer" to manage streaming data. This temporary storage space retains incoming data for a brief period before it is fully committed and integrated into the permanent table.
+<img width="664" alt="BigQueryStreaming" src="https://github.com/user-attachments/assets/275c0db6-77fe-463f-8566-f6f7a524da4f">
+
+When you cease streaming data, the streaming buffer no longer receives continuous updates. At this point, BigQuery initiates the process of flushing the buffered data into the main table storage. During this process, the data is reorganized and compressed to ensure efficient storage. This step is crucial for maintaining data consistency and integrity before the data is fully committed to the table.
+
+The time required for streamed data to be completely committed and visible in the table varies based on several factors, including the buffer size, data volume, and BigQuery's internal processing capabilities. Typically, this flushing process takes a few minutes but can extend up to 90 minutes for the data to become visible in the table.
+
+In the example provided, the updated information can be found in the "Storage info" section. If streaming was in progress, at the details section of the table, you will see 'Streaming Buffer Statistics' section, because it has ended, you only see the 'Storage info' section.
+
+# <u>Querying the Final Table</u>
+The final step is to create the "customer_courier_conversations" table. In this instance, we will generate a view, which acts as a virtual table defined by a SQL query. This custom SQL code will facilitate the transformation of the data to align with the specific requirements of the task.
+
+You can create the use the google cloud console to create the view in BigQuery or you can also use the bq command line tool other methods.
+<img width="790" alt="create-view" src="https://github.com/user-attachments/assets/662db5ba-4e51-4190-824b-92943f08dc32">
+
+Views serve as virtual references to a collection of data, providing reusable access without the need to physically store the data. In contrast, materialized views are defined using SQL like regular views but actually store the data physically. However, materialized views have limitations in terms of query support. Given the considerable size of my query, a regular view was the more appropriate option in this instance.
+
+After initiating the streaming process, you can execute the saved view after a short wait.
+<img width="911" alt="view-query" src="https://github.com/user-attachments/assets/1b4a8f56-3f3a-4b09-b0fa-3e98c10711e7">
+
+```bash
+SELECT * FROM `your-project-id.dataset.view`
+```
+
+
 
 
