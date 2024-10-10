@@ -172,6 +172,20 @@ After initiating the streaming process, you can execute the saved view after a s
 SELECT * FROM `your-project-id.dataset.view`
 ```
 
+Let's examine one of the conversations by extracting all messages associated with the "orderId" 99219869  from the "conversations.json" file
+<img width="896" alt="order-exam" src="https://github.com/user-attachments/assets/b906ab5f-47e1-43e6-a31c-9979541278b7">
+
+We identify one message. The conversation began with customer message in  Buenos Aires (city_code: BUE) at 10:00:10. The courier responded after 6 seconds at 10:00:16. The last message was received from the customer at 10:01:50 and the last message order stage was recorded as ARRIVED.
+
+Please be aware that, in my situation, the time difference between the first and last messages was just about 1 minute 40 seconds, leading to a swift analysis. As new data streams continuously into the source, the view is automatically updated in real-time to reflect these changes. Consequently, whenever you query the view, you will receive the most current data that meets the specified criteria.
 
 
+To test with larger datasets, you can find the `generate-the-data.py` code in my GitHub repository. This code enables you to create additional conversations, helping you evaluate the scalability of the project.
 
+Throughout this article, I have referenced the following sources for specific details and concepts:
+
+- [Google Cloud Dataflow Overview](https://cloud.google.com/dataflow/docs/overview)
+- [Google Cloud Pub/Sub Overview](https://cloud.google.com/pubsub/docs/overview)
+- [Apache Beam Dataflow Runner Documentation](https://beam.apache.org/documentation/runners/dataflow/)
+- [Apache Beam Direct Runner Documentation](https://beam.apache.org/documentation/runners/direct/)
+- [BigQuery Views Introduction](https://cloud.google.com/bigquery/docs/views-intro)
