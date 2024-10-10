@@ -45,6 +45,16 @@ We will simulate the streaming of conversations between Couriers and Customers u
 The task is to build a data pipeline that aggregates individual messages into distinct conversations, ensuring each conversation is unique per order. The data should be divided into two tables: "conversations" and "orders". This separation will streamline future analysis and data processing. The final table, "customer_courier_conversations," must include the following required fields:
 
 &#8226; First item
-
+● order_id
+● city_code
+● first_courier_message: Timestamp of the first courier message
+● first_customer_message: Timestamp of the first customer message
+● num_messages_courier: Number of messages sent by courier
+● num_messages_customer: Number of messages sent by customer
+● first_message_by: The first message sender (courier or customer)
+● conversation_started_at: Timestamp of the first message in the conversation
+● first_responsetime_delay_seconds: Time (in secs) elapsed until the first message was responded
+● last_message_time: Timestamp of the last message sent
+● last_message_order_stage: The stage of the order when the last message was sent
 
 
