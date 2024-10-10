@@ -44,29 +44,20 @@ We will simulate the streaming of conversations between Couriers and Customers u
 
 The task is to build a data pipeline that aggregates individual messages into distinct conversations, ensuring each conversation is unique per order. The data should be divided into two tables: "conversations" and "orders". This separation will streamline future analysis and data processing. The final table, "customer_courier_conversations," must include the following required fields:
 
-&#8226; First item
-
-&#8226; order_id
-
-&#8226; city_code
-
-&#8226; first_courier_message: Timestamp of the first courier message
-
-&#8226; first_customer_message: Timestamp of the first customer message
-
-&#8226; num_messages_courier: Number of messages sent by courier
-
-&#8226; num_messages_customer: Number of messages sent by customer
-
-&#8226; first_message_by: The first message sender (courier or customer)
-
-&#8226; conversation_started_at: Timestamp of the first message in the conversation
-
-&#8226; first_responsetime_delay_seconds: Time (in secs) elapsed until the first message was responded
-
-&#8226; last_message_time: Timestamp of the last message sent
-
+&#8226; First item  
+&#8226; order_id  
+&#8226; city_code  
+&#8226; first_courier_message: Timestamp of the first courier message  
+&#8226; first_customer_message: Timestamp of the first customer message  
+&#8226; num_messages_courier: Number of messages sent by courier  
+&#8226; num_messages_customer: Number of messages sent by customer  
+&#8226; first_message_by: The first message sender (courier or customer)  
+&#8226; conversation_started_at: Timestamp of the first message in the conversation  
+&#8226; first_responsetime_delay_seconds: Time (in secs) elapsed until the first message was responded  
+&#8226; last_message_time: Timestamp of the last message sent  
 &#8226; last_message_order_stage: The stage of the order when the last message was sent
+
+
 
 
 
